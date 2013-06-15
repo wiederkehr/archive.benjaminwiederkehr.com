@@ -1,0 +1,47 @@
+#lifestream{
+	list-style: none;
+	margin: 0;
+	padding:  2em 0;
+}
+#lifestream h3{
+	color: #bbb; 
+	font-size: 10px; 
+	font-weight: normal; 
+	margin: 0 0 -1px;
+	padding: 0 0 2px;
+	text-transform: uppercase;
+}
+#lifestream ol{
+	margin: 0 0 2em;
+	list-style: none;
+	border-bottom: 1px solid #D4D5D3;
+}
+#lifestream ol li{
+	background: url('http://benjaminwiederkehr.com/assets/img/post_bg.png');
+	margin: 1px 0 0;
+	padding: 10px 10px;
+}
+#lifestream ol li img{
+	margin: 0;
+	float: left;
+}
+#lifestream ol li p{
+	margin: 1px 0 0 26px;
+	line-height: 1.333;
+}
+#lifestream ol li p.lifestream-meta{
+	font-size: 0.8333em;
+}
+#lifestream ol li ul.lifestream_events{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#lifestream ol li ul.lifestream_events li{
+	line-height: 1.5;
+	margin: 0 0 0 26px;
+	padding: 0;
+}
+#lifestream ol li ul.lifestream_events li a{
+	letter-spacing: 0;
+}

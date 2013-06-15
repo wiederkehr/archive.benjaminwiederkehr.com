@@ -1,0 +1,183 @@
+@charset "utf-8";
+/*
+Archive Styles
+Theme Name: 		Benjamin Wiederkehr 2010
+Description:	  Benjamin Wiederkehr Blog Style 2010
+Version:    		0.2
+Domain:     	  benjaminwiederkehr.com
+Author:     		Benjamin Wiederkehr
+Start:      		100525_BW
+Last update:	  130615_BW
+*/
+
+/* OVERWRITE
+/////////////////////////////////////////////////////////////////*/
+body	{ }
+
+dl				{ line-height: 18px; font-size: 10px;}
+dt				{ width: 60px; color: #bbb; clear: left;}
+dd				{ margin-left: 60px; color: #aaa; font-weight: bold;}
+dd a			{ color: #aaa;}
+dd a:hover{ color: #444;}
+h3.ui			{ color: #bbb; font-size: 10px; margin-bottom: 2px; text-transform: uppercase;}
+
+h2, .post_content h3 { font-family: "ff-netto-web",sans-serif;}
+/*
+HEADER
+/////////////////////////////////////////////////////////////////*/
+#header         						{ height: 170px; position: relative; padding: 30px 0 0;}
+#header h1      				{ height: 150px; width: 230px; margin: 0;}
+#header h1 a    			{ display: block; height: 150px; width: 230px; background: url('http://benjaminwiederkehr.com/assets/img/logos/benjaminwiederkehr_archive_logo_dark.png') -20px 0 no-repeat;}
+#header h1 a img	{ margin: 0 0 0 -20px; float: none;}
+#header p       					{ margin-top: 56px; font: italic 15px/18px "Georgia", Georgia, serif; color: #aaa;}
+
+#badge_hire				{ position: absolute; top: 20px; right: 0; display: block; width: 62px; height: 62px; background: url('http://benjaminwiederkehr.com/assets/img/badge.png') 0 0 no-repeat; text-indent: -99999px;}
+#badge_hire:hover	{ background: url('http://benjaminwiederkehr.com/assets/img/badge.png') 0 -72px no-repeat;}
+/*
+POST
+/////////////////////////////////////////////////////////////////*/
+.post					{ border-top: 1px solid #d4d5d3; border-bottom: 1px solid #d4d5d3; margin-bottom:36px; background: url('http://benjaminwiederkehr.com/assets/img/post_bg.png');}
+/*
+POST TITLE
+/////////////////////////////////////////////////////////////////*/
+.post_title			{ border-top: 2px solid #d4d5d3; position: relative ; min-height: 144px; padding-top: -2px;}
+.page_title			{ border-top: 2px solid #d4d5d3; position: relative ; min-height: 60px; padding-top: -2px;}
+.post_title h2,
+.page_title h2	{ margin: 11px 0 10px 10px;}
+.post_title	dl	{ min-height: 69px; margin-left: 10px;}
+/*
+POST CONTENT
+/////////////////////////////////////////////////////////////////*/
+.post_content									{ }
+.post_content h3							{ font-size: 18px; font-weight: bold; clear: both; margin: 2em 0 .5em;}
+.post_content p 							{ margin: 18px 0;}
+.post_content	p img						{ margin: 10px 0;}
+.post_content	p img.icon			{ float: none;}
+.post_content p img.teaser    { margin: 0; float: none;}
+.post_content	img							{ margin-right: 0;}
+
+.post_content.single							{ padding: 0 0 30px;}
+.post_content.single p						{ clear: both; margin: 18px 0;}
+.post_content.single p.top				{margin-top: 0;}
+.post_content.single p img				{ margin: 1.5em 0 0 0;}
+.post_content.single p img.s_left	{ margin: 1.5em 10px 0 0;}
+.post_content.single p img.s_right{ margin: 1.5em 0 0 0;}
+.post_content.single p img.icon_l	{ margin: 5px 10px 1.5em 0; float: left;}
+.post_content.single p img.icon_r	{ margin: 5px 0 1.5em 10px; float: right;}
+.post_content.single img.bottom		{ margin: 1.5em 0 1.5em 0;}
+.post_content.single p a:hover		{ text-decoration: underline;}
+
+.post_content ol li					{ list-style: decimal;}
+.post_content ul li					{ list-style-type: disc; }
+.post_content ul li ul li		{ list-style-type: circle; }
+
+.post_content .code{ padding: 20px; border-bottom: 1px solid #666666; border-top: 1px solid #666666;}
+
+p img.align_right{ float: right; margin: 1.5em 0 1.5em 1.5em; padding: 0; }
+dd a img		{ margin: 0 10px 0 0; float: left;}
+
+/*
+PAGINATION
+/////////////////////////////////////////////////////////////////*/
+div.pagination .alignright	{ float: right; text-align: right;}
+div.pagination .alignleft		{ float: left;}
+
+/*
+PAGES
+/////////////////////////////////////////////////////////////////*/
+.page										{ margin: 22px 0 22px;}
+.page .post							{ border-top: 1px solid #d4d5d3; border-bottom: 1px solid #d4d5d3; margin-bottom:-1px;}
+.page ul									{ margin: 0 0 0 0;}
+.page ul li							{ position: relative;}
+.page ul li a						{ font-size: 10px; line-height: 1.8; letter-spacing: 1px;}
+.page ul li a img 				{ margin: 0 3px 0 0; position: relative; top: 3px; left: 0; width: 13px;}
+.page ul li img					{ float: right;}
+.page #tumblr_content		{ font-size: 10px;}
+.page p									{ font-size: 1em; line-height: 1.8; margin: 1.8em 0 1.8em 0;}
+.page h3									{ font-size: 1em; padding-top: 2.3em; border-bottom: 1px solid #d4d5d3; margin-bottom: -1px;}
+.page em					{ background: none; color: #bbb;}
+.elsewhere dd a img		{ width: 16px; height: 16px;}
+
+.page_content p					{ margin-top: 1.5em;}
+.page_content p.top			{ margin-top: 0;}
+.page_content p a:hover	{ text-decoration: underline;}
+.page_content dl				{ margin-top: 1.5em; line-height: 22px;}
+.page_content dt				{ width: 80px; color: #444; clear: left; font-size: 12px;}
+.page_content dd				{ margin-left: 80px; color: #444; font-size: 12px;}
+.page_content dd a			{ color: #444; font-weight: bold; }
+.page_content dd a:hover{ color: #444; text-decoration: underline;}
+.page_content ol li			{list-style-type: decimal; }
+/*
+TAXONOMY
+/////////////////////////////////////////////////////////////////*/
+.taxonomy										{ margin: 22px 0 22px;}
+.taxonomy .post							{ border-top: 1px solid #d4d5d3; border-bottom: 1px solid #d4d5d3; padding-bottom: 10px;}
+.taxonomy .grid							{ background: none;}
+.taxonomy p									{ font-size: 1em; line-height: 1.8; margin: 1.8em 0 1.8em 0;}
+/*
+TAG
+/////////////////////////////////////////////////////////////////*/
+span.tag				{ width: 170px; margin-top: 10px; background: #e3e3e0; position: relative;}
+span.count			{ position: absolute; text-indent: -9999px; top: 0; left: 0; display: block; height: 36px; background: #d4d5d3;}
+span.tag:hover	{ background: #d4d5d3;}
+span.tag a			{ position: relative; display: block; height: 18px; padding: 16px 5px 2px 10px; color: #444; text-decoration: none;}
+span.tag a:hover{ color: #444; text-decoration: none;}
+/*
+ELSEWHERE
+/////////////////////////////////////////////////////////////////*/
+
+/*
+COMMENTS
+/////////////////////////////////////////////////////////////////*/
+#comments							{ border-bottom: 1px solid #d4d5d3; margin-bottom: 36px; padding-bottom: 2em;}
+ol.commentlist				{ margin: 0 0 0 0; padding: 0;list-style: none; overflow: hidden;}
+h3#respond						{ border-bottom: 3px solid #d4d5d3; margin-top: 30px; padding-bottom: 2px;}
+#commentform input		{ margin-bottom: .5em;}
+#comments_heading			{ border: none;}
+.comments_item				{ margin-bottom: 22px; border-top: 1px solid #d4d5d3; border-bottom: 1px solid #d4d5d3; background: url('http://benjaminwiederkehr.com/assets/img/post_bg.png');}
+.comments_item p			{ line-height: 1.8em;}
+.comment_left					{ border-top: 2px solid #d4d5d3; padding-top: 1em;}
+.comment_right				{ padding-top: 1.1em}
+.comment_left dl			{margin-left: 10px;}
+/*
+SECONDARY
+/////////////////////////////////////////////////////////////////*/
+.secondary a							{ color: #aaa; font-weight: bold; text-decoration: none;}
+.secondary a:hover				{ color: #444;}
+.secondary p							{ font-size: 11px; margin: 0 0 40px;}
+.secondary h3							{ color: #bbb; font-size: 10px; margin-bottom: 15px; padding-bottom: 2px; text-transform: uppercase; border-bottom: 3px solid #d4d5d3;}
+.secondary ul							{ list-style: none; margin: 0 0 40px; padding: 0;}
+.secondary ul li					{ font-size: 11px; }
+.secondary ul li a				{ line-height: 20px; display: block; border-bottom: 1px solid #d4d5d3;}
+.secondary ul li a:hover	{ text-decoration: none; border-bottom: 1px solid #bbb; outline: none;}
+/*
+SIDEBAR
+/////////////////////////////////////////////////////////////////*/
+#sidebar								{ margin-right: 50px;}
+#sidebar h2							{ font-size: 18px; margin-bottom: 8px;}
+#sidebar ul#navigation li a{ color: #444;}
+#sidebar ul#navigation li.current_page_item a,
+#sidebar ul#navigation li.current-cat a{ color: #bbb;}
+
+.sidebar_content p			{ color: #bbb;}
+.sidebar_content img		{ margin: 1.5em 0 0 0;}
+/*
+FOOTER
+/////////////////////////////////////////////////////////////////*/
+#footer		{ border-top: 1px solid #e3e3e0; border-bottom: 1px solid #F4F4F4;margin-top: 36px; background: #e3e3e0 url('http://benjaminwiederkehr.com/assets/img/indent_shadow.png') top left repeat-x; position: relative;}
+#footer.expanded{ border-bottom: 1px solid #fff; border-top: none;}
+#footer h3							{ margin: 30px 0 15px;}
+
+#footer form#searchform				{ }
+#footer form#searchform input	{ padding: 0 5px; width: 175px; height: 18px;}
+
+a#panel_toggle					{ position: absolute; top: -22px; text-transform: uppercase; font-size: 10px; font-weight: normal; display: block; padding: 3px 6px 3px 13px; text-decoration: none; -moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px; background: #e3e3e0 url('http://benjaminwiederkehr.com/assets/img/toggle_icon.png') 3px 6px no-repeat; color: #aaa; border:1px solid #d7d7d5; border-top:1px solid #cdcdca; border-bottom: none;}
+a#panel_toggle:hover		{ color: #444;}
+a#panel_toggle.current	{ top: -19px; background: #e3e3e0 url('http://benjaminwiederkehr.com/assets/img/toggle_icon.png') 3px -8px no-repeat; color: #aaa; border:1px solid #d7d7d5; border-top:1px solid #cdcdca; border-bottom: none;}
+a#panel_toggle.current:hover{ color: #444;}
+
+/*
+CREDITS
+/////////////////////////////////////////////////////////////////*/
+#credits{ color: #aaa; padding: 20px 0 30px;}
+#credits p{ margin: 17px 0 0;}
