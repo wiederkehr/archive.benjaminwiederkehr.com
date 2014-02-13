@@ -142,7 +142,7 @@ h3#respond						{ border-bottom: 3px solid #d4d5d3; margin-top: 30px; padding-bo
 /*
 SECONDARY
 /////////////////////////////////////////////////////////////////*/
-.secondary a							{ color: #aaa; font-weight: bold; text-decoration: none;}
+.secondary a							{ color: #aaa; font-weight: bold; text-decoration: none; transition: color 0.2s;}
 .secondary a:hover				{ color: #444;}
 .secondary p							{ font-size: 11px; margin: 0 0 40px;}
 .secondary h3							{ color: #bbb; font-size: 10px; margin-bottom: 15px; padding-bottom: 2px; text-transform: uppercase; border-bottom: 3px solid #d4d5d3;}
