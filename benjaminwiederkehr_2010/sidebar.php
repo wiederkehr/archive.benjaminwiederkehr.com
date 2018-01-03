@@ -5,21 +5,21 @@
 	</div>
 	<div class="sidebar_content">
 		<ul id="navigation">
-			<?php 
+			<?php
 			wp_list_categories(
 				array(
-					'include'=>'22,34,73', 
+					'include'=>'2,3,4',
 					'orderby'=>'id',
-					'order'=>'ASC', 
+					'order'=>'ASC',
 					'title_li'=>'',
 					'hide_empty'=>0
 				)
 			)
 			?>
-			<?php 
+			<?php
 			wp_list_pages(
 				array(
-					'include'=>'73,202, 845', 
+					'include'=>'202',
 					'sort_column'=>'menu_order',
 					'title_li'=>''
 				)
@@ -33,11 +33,13 @@
 	</div>
 	<div class="sidebar_content">
 		<ul class="icons">
-			<li><a href="http://feeds2.feedburner.com/artillery/Portfolio" title="Follow me via RSS">RSS <i class="icon-rss"></i></a></li>
-			<li><a href="http://twitter.com/wiederkehr" title="Follow me on Twitter">Twitter <i class="icon-twitter"></i></a></li>
-			<li><a href="http://facebook.com/benjamin.wiederkehr" title="Follow me on Facebook">Facebook <i class="icon-facebook"></i></a></li>
-			<li><a href="http://wiederkehr.tumblr.com" title="Follow me on Tumblr">Tumblr <i class="icon-tumblr"></i></a></li>
-			<li><a href="https://pinterest.com/wiederkehr" title="Follow me on Pinterest">Pinterest <i class="icon-pinterest"></i></a></li>
+			<li><a href="<?php bloginfo('rss2_url'); ?>" title="Follow me via RSS">RSS <i class="fas fa-fw fa-rss"></i></a></li>
+			<li><a href="http://twitter.com/wiederkehr" title="Follow me on Twitter">Twitter <i class="fab fa-fw fa-twitter"></i></a></li>
+			<li><a href="http://facebook.com/benjamin.wiederkehr" title="Follow me on Facebook">Facebook <i class="fab fa-fw fa-facebook-f"></i></a></li>
+			<li><a href="https://instagram.com/wiederkehr" title="Follow me on Instagram">Instagram <i class="fab fa-fw fa-instagram"></i></a></li>
+			<li><a href="https://pinterest.com/wiederkehr" title="Follow me on Pinterest">Pinterest <i class="fab fa-fw fa-pinterest-p"></i></a></li>
+			<li><a href="http://wiederkehr.tumblr.com" title="Follow me on Tumblr">Tumblr <i class="fab fa-fw fa-tumblr"></i></a></li>
+			<li><a href="https://github.com/wiederkehr" title="Follow me on Github">Github <i class="fab fa-fw fa-github-alt"></i></a></li>
 		</ul>
 	</div>
 	<!-- ——————————————————————————————————————————————————————————————————— WORK -->
@@ -46,27 +48,7 @@
 	</div>
 	<div class="sidebar_content">
 		<ul class="icons">
-			<li><a href="http://interactivethings.com" title="Work with Interactive Things">Interactive Things <i class="icon-cross"></i></a></li>
-			<li><a href="http://datavisualization.ch" title="Work with Datavisualization.ch">Datavisualization.ch <i class="icon-plus"></i></a></li>
+			<li><a href="http://interactivethings.com" title="Work with Interactive Things">Interactive Things <i class="fas fa-fw fa-external-link-square-alt"></i></a></li>
 		</ul>
 	</div>
-	<!-- ——————————————————————————————————————————————————————————————————— NOTES -->
-	<!-- <?php if(is_home()){ ?>
-	<div class="sidebar_title">
-		<h3>Notes</h3>
-	</div>
-	<div class="sidebar_content">
-		<?php
-			//rewind_posts();
-			//$tb_query = new WP_Query('cat=20&showposts=1');
-			//if ($tb_query->have_posts()) : while ($tb_query->have_posts()) : $tb_query->the_post();
-			?>
-			<h2><a href="<?php the_permalink() ?>" title="<?php the_title()?>"><?php the_date(); ?></a></h2>
-			<?php
-			//echo the_content('more…');
-		//endwhile;
-		//endif;
-		?>
-	</div>
-	<?php }; ?> -->
 </div>
