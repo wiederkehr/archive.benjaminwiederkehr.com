@@ -20,8 +20,8 @@
 	<meta name="Language" content="en" />
 	<meta name="Robots" content="ALL" />
 	<!-- ——————————————————————————————————————————————————————————————————— IMAGE -->
-	<link rel="image_src" href="<?php echo get_template_directory_uri() . '/assets/img/benjaminwiederkehr_logo_dark.png'; ?>" />
-	<meta property="og:image" content="<?php echo get_template_directory_uri() . '/assets/img/benjaminwiederkehr_logo_dark.png'; ?>" />
+	<link rel="image_src" href="<?php echo get_template_directory_uri() . '/assets/img/benjaminwiederkehr_archive_logo.png'; ?>" />
+	<meta property="og:image" content="<?php echo get_template_directory_uri() . '/assets/img/benjaminwiederkehr_archive_logo.png'; ?>" />
 	<!-- ——————————————————————————————————————————————————————————————————— FAVICON -->
 	<link rel="icon" href="<?php echo get_template_directory_uri() . '/assets/img/favicon.ico'; ?>" type="image/x-icon" />
 	<!-- ——————————————————————————————————————————————————————————————————— CSS -->
@@ -31,13 +31,21 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 	<script type="text/javascript" src="https://use.typekit.com/aea1puq.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
+	<!-- ——————————————————————————————————————————————————————————————————— GA -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3202544-11"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-3202544-11');
+  </script>
 <!-- ——————————————————————————————————————————————————————————————————— RSS -->
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <!-- ——————————————————————————————————————————————————————————————————— WP HEAD -->
 	<?php wp_head(); ?>
 </head>
-<!-- ——————————————————————————————————————————————————————————————————— Body -->
+<!-- ——————————————————————————————————————————————————————————————————— BODY -->
 <body class='<?php single_cat_title(); ?>'>
 <div class="container">
 	<div id="header" class="span-24">

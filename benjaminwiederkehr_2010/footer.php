@@ -64,11 +64,5 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets/js/script.js'; ?>"></script>
 	<?php do_action('wp_footer'); ?>
-<!-- ——————————————————————————————————————————————————————————————————— Google Analystics -->
-<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-<script type="text/javascript">
-	_uacct = "UA-3202544-1";
-	urchinTracker();
-</script>
 </body>
 </html>
