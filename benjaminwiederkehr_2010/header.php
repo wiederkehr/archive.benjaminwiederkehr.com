@@ -25,7 +25,7 @@
 	<!-- ——————————————————————————————————————————————————————————————————— FAVICON -->
 	<link rel="icon" href="<?php echo get_template_directory_uri() . '/assets/img/favicon.ico'; ?>" type="image/x-icon" />
 	<!-- ——————————————————————————————————————————————————————————————————— CSS -->
-	<link rel="stylesheet" href="http://benjaminwiederkehr.com/assets/css/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://benjaminwiederkehr.com/assets/css/style.1.0.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<!-- ——————————————————————————————————————————————————————————————————— JS -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
